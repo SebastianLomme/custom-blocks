@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$purple: #9864a6;
+$primary: $purple;
+$secondary: #e40d7e;
+$light: #faf7fb;
+$dark: rgba(29, 29, 27, 1);
+
+ .wp-block-pom-custom-blocks-pom-custom-block-one {
+
+	.pom-card {
+		&-one, &-two {
+			padding: 1em 2em;
+		}
+		&-one {
+			background-color: $primary;
+			color: $light;
+		}
+		&-two {
+			background-color: #fff;
+			color: $primary;
+		}
+	}
+
+}

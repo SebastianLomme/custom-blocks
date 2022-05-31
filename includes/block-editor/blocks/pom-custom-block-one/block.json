@@ -1,0 +1,52 @@
+{
+	"apiVersion": 2,
+	"name": "pom-custom-blocks/pom-custom-block-one",
+	"version": "0.1.0",
+	"title": "Pom-home-page-part-one",
+	"category": "text",
+	"description": "Part one for the home page",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "pom-custom-blocks",
+	"editorScript": "file:../../../../build/pom-custom-block-one.js",
+	"editorStyle": "file:../../../../build/pom-custom-block-one.css",
+	"style": "file:../../../../build/style-pom-custom-block-one.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h2",
+			"default": "Heb je als school behoefte aan:"
+		},
+		"subTitleOne": {
+			"type": "string",
+			"selector": "h3",
+			"default": "Coaching"
+		},
+		"subTitleTwo": {
+			"type": "string",
+			"selector": "h3",
+			"default": "Scholing en voorlichting"
+		},
+		"contentOne": {
+			"type": "string",
+			"selector": "p",
+			"default": "heb je een moeilijke hulpvraag (cluster 3/4) en behoefte aan een ervaren Ambulant Begeleider die met jou meekijkt, adviseert en aan de slag gaat met de hulpvraag?"
+		},
+		"contentTwo": {
+			"type": "string",
+			"selector": "p",
+			"default": "heb je een specifieke scholingsvraag, denk aan ASS, gedragsproblematiek,v ADHD, Down Syndroom, PDD-NOS, dyslexie, etc.? Of heb je behoefte aan hoe je didactische lessen praktischer vorm kunt geven? Perfect Onderwijs Match heeft deze kennis en expertise in huis en gaat met de hulpvraag aan de slag."
+		},
+		"align": {
+			"type": "string",
+			"default": "none"
+		},
+		"mediaUrl": {
+			"type": "string"
+		},
+		"mediaId": {
+			"type": "string"
+		}
+	}
+}

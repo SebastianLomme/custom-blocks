@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$purple: #9864a6; // Thats a sample how you could change a BootStrap variable.
+$primary: $purple; // Once we've changed the value, we'll also make it the primary brand color.
+$secondary: #e40d7e;
+$light: #faf7fb;
+$dark: rgba(29, 29, 27, 1);
+
+ .wp-block-pom-custom-blocks-pom-custom-block-three {
+	background-color: inherit;
+	color: inherit;
+
+	a {
+		color: $light;
+	}
+}

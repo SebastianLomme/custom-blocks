@@ -1,0 +1,43 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ $purple: #9864a6;
+ $primary: $purple;
+ $secondary: #e40d7e;
+ $light: #faf7fb;
+ $dark: rgba(29, 29, 27, 1);
+
+ .wp-block-pom-custom-blocks-pom-custom-block-one {
+	background-color: inherit;
+	color: inherit;
+	padding: 2px;
+
+	.pom-card {
+		&-one, &-two {
+			padding: 1em 2em;
+			margin-block: 2em;
+		}
+		&-one {
+			background-color: $primary;
+			color: $light;
+			h3 {
+				color: inherit;
+			}
+		}
+		&-two {
+			background-color: #fff;
+			color: $primary;
+		}
+		&-section {
+
+		}
+	}
+	.feature-icon {
+		object-fit: contain;
+	}
+
+}

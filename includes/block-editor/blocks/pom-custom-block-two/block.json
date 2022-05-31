@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "pom-custom-blocks/pom-custom-block-two",
+	"version": "0.1.0",
+	"title": "Pom-custom-block-two",
+	"category": "text",
+	"textdomain": "pom-custom-block-two",
+	"editorScript": "file:../../../../build/pom-custom-block-two.js",
+	"editorStyle": "file:../../../../build/pom-custom-block-two.css",
+	"style": "file:../../../../build/style-pom-custom-block-two.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h2",
+			"default": "Werving &amp; Selectie"
+		},
+		"subTitle": {
+			"type": "string",
+			"selector": "h4",
+			"default": "Speciaal onderwijs – Praktijkonderwijs – Basisonderwijs"
+		},
+		"description": {
+			"type": "string",
+			"selector": "p",
+			"default": "Perfect Onderwijs Match maakt de match tussen leerkracht en school."
+		},
+		"choiceOne": {
+			"type": "string",
+			"selector": "p",
+			"default": "De school zet een opdracht uit bij Perfect Onderwijs Match en Jennifer gaat op zoek naar de best passende leerkracht;"
+		},
+		"choiceTwo": {
+			"type": "string",
+			"selector": "p",
+			"default": "Jennifer heeft een goede leerkracht en gaat op zoek naar de best passende school. Laat je in de werkwijze en persoonlijke benadering vooral verrassen en ga samen de uitdaging aan."
+		},
+		"footer": {
+			"type": "string",
+			"selector": "p",
+			"default": "Uiteraard krijg jij een mooi dienstverband bij de school zelf. Perfect Onderwijs Match bemiddelt tussen de twee partijen."
+		}
+	}
+}

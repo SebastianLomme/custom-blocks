@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "pom-custom-blocks/pom-custom-block-three",
+	"version": "0.1.0",
+	"title": "Pom-custom-block-three",
+	"category": "text",
+	"textdomain": "pom-custom-block-three",
+	"editorScript": "file:../../../../build/pom-custom-block-three.js",
+	"editorStyle": "file:../../../../build/pom-custom-block-three.css",
+	"style": "file:../../../../build/style-pom-custom-block-three.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h3",
+			"default": "Werving &amp; Selectie"
+		},
+		"subTitleOne": {
+			"type": "string",
+			"selector": "h5",
+			"default": "Opdrachtgever"
+		},
+		"subTitleTwo": {
+			"type": "string",
+			"selector": "h4",
+			"default": "Kandidaat"
+		},
+		"partOne": {
+			"type": "string",
+			"selector": "p",
+			"default": "POM gaat op zoek of heeft een ervaren kandidaat beschikbaar."
+		},
+		"partTwo": {
+			"type": "string",
+			"selector": "p",
+			"default": "POM heeft de baan die bij jou past. Hebben we die nu niet? Samen op zoek."
+		},
+		"linkOne": {
+			"type": "string",
+			"selector": "a",
+			"default": null
+		},
+		"linkTwo": {
+			"type": "string",
+			"selector": "a",
+			"default": "http://perfectonderwijsmatch.local"
+		},
+		"direction": {
+			"type": "string",
+			"default": "h"
+		}
+	}
+}
